@@ -4,7 +4,7 @@ import sys
 import os
 
 if len(sys.argv) != 3:
-    print("Usage: python 21.bionano-trans.py file1.txt file2.txt")
+    print("Usage: python 01.bionano-trans.py file1.txt file2.txt")
     sys.exit(1)
 
 file1_path = sys.argv[1]
