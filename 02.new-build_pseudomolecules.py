@@ -5,7 +5,7 @@
 Reference-guided pseudomolecule builder without contig splitting.
 Each contig is anchored as a whole using its primary XMAP alignment.
 Example:
-python 22.new-build_pseudomolecules.no_split.py \
+python 02.new-build_pseudomolecules.no_split.py \
   -x 21.20.lm15_11X_2_CS_IAAS_lo7.xmap.processed \
   -c ../12.split_genome.fa.gz \
   -o 22.lm15_11x_pseudomolecules.fasta \
